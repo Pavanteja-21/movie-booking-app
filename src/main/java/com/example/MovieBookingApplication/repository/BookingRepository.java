@@ -1,4 +1,4 @@
-package repository;
+package com.example.MovieBookingApplication.repository;
 
 import com.example.MovieBookingApplication.entity.Booking;
 import com.example.MovieBookingApplication.entity.BookingStatus;
