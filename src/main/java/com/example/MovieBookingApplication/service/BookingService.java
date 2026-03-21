@@ -5,12 +5,11 @@ import com.example.MovieBookingApplication.entity.Booking;
 import com.example.MovieBookingApplication.entity.BookingStatus;
 import com.example.MovieBookingApplication.entity.Show;
 import com.example.MovieBookingApplication.entity.User;
-import org.jspecify.annotations.Nullable;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.BookingRepository;
-import repository.ShowRepository;
-import repository.UserRepository;
+import com.example.MovieBookingApplication.repository.BookingRepository;
+import com.example.MovieBookingApplication.repository.ShowRepository;
+import com.example.MovieBookingApplication.repository.UserRepository;
 
 import java.time.LocalDateTime;
 import java.util.List;

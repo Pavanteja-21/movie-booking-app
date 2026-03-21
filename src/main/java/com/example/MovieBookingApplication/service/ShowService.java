@@ -7,9 +7,9 @@ import com.example.MovieBookingApplication.entity.Show;
 import com.example.MovieBookingApplication.entity.Theatre;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.MovieRepository;
-import repository.ShowRepository;
-import repository.TheatreRepository;
+import com.example.MovieBookingApplication.repository.MovieRepository;
+import com.example.MovieBookingApplication.repository.ShowRepository;
+import com.example.MovieBookingApplication.repository.TheatreRepository;
 
 import java.util.List;
 import java.util.Optional;

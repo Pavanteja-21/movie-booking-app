@@ -4,7 +4,7 @@ import com.example.MovieBookingApplication.dto.TheatreDTO;
 import com.example.MovieBookingApplication.entity.Theatre;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import repository.TheatreRepository;
+import com.example.MovieBookingApplication.repository.TheatreRepository;
 
 import java.util.List;
 import java.util.Optional;
